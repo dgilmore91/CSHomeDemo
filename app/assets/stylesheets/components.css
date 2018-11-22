@@ -1,0 +1,27 @@
+.rootcontainer{
+    height: 100%;
+    width: 100%;
+}
+
+.listcontainer{
+    display: table;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.list{
+    width: 50%;
+    display: table-cell;
+    padding: 0 16px 16px 16px;
+    border-style: groove;
+}
+
+
+.listitem{
+    display: block;
+}
+
+.listitem.selected{
+    font-weight: bolder;
+}
+
